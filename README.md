@@ -1,5 +1,9 @@
 # c_studsys
 
-Task management system in C
+C/C++ Learing place 
 
-Written by a student based on old code.
+## Run code
+
+```
+g++ -std=c++17 my_print/my_print_v2.cpp 
+```
