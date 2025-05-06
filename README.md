@@ -1,4 +1,4 @@
-# c_studsys
+# c_cpp_studsys
 
 C/C++ Learning place
 
