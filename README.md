@@ -1,6 +1,6 @@
-# c_studsys
+# c_cpp_studsys
 
-C/C++ Learing place 
+C/C++ Learning place
 
 ## Run code
 
