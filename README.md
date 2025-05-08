@@ -7,3 +7,12 @@ C/C++ Learning place
 ```
 g++ -std=c++17 my_print/my_print_v2.cpp 
 ```
+
+## CMD
+```
+pwd
+cd
+cd ..
+ls
+ls -al
+```
