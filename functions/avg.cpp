@@ -5,26 +5,30 @@
 /*
 int countArrSize(float *arr)
 {
-    int size = sizeof(arr) / sizeof(arr[0]); 
+    int size = sizeof(arr) / sizeof(arr[0]);
     return size;
 }
 */
 
-
-void menu(int size)
+void menu(float tablica[], int size)
 {
-    std::string value;
-    while(true) 
+    int j = 0;
+    while (true)
     {
-        std::cin >> key_value;
-
+        if (j >= size)
+        {
+            break;
+        }
+        else
+        {
+            std::cin >> tablica[j++];
+        }
     }
 }
 
-
 float count_avg(float arr[], int size)
 {
-    int arrSize = size; //countArrSize(arr);
+    int arrSize = size; // countArrSize(arr);
     std::cout << "arr size = " << arrSize << std::endl;
 
     float sum = 0.0;
@@ -40,7 +44,7 @@ int main()
 {
     float arr[ARR_SIZE] = {0.5, 1.2, 2.4, 3.8, 4.6, 5.0, 6.3, 7.7, 8.1, 9.9};
 
-    int size = sizeof(arr) / sizeof(arr[0]); 
+    int size = sizeof(arr) / sizeof(arr[0]);
 
     // 1. Show array
     for (int i = 0; i < size; i++)
