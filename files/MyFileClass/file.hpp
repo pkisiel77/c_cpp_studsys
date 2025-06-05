@@ -19,5 +19,5 @@ public:
     // Deklaracja metody showFile()
     void showFile();
 
-    int countFileLines();
+    
 };

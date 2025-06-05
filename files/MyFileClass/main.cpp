@@ -7,5 +7,7 @@ int main()
     f.readFile();
     f.showFile();
 
+    std::cout << f.countFileLines() << std::endl;
+
     return 0;
 }
