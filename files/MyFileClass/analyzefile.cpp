@@ -2,13 +2,12 @@
 
 int AnalyzedFile::countWords()
 {
-    if(_lines.empty()) 
+    if (_lines.empty())
     {
         return 0;
     }
 
-    
-
+    return -1;
 }
 
 int AnalyzedFile::countOccurrences(const std::string &word)
@@ -18,24 +17,19 @@ int AnalyzedFile::countOccurrences(const std::string &word)
 
 int AnalyzedFile::countFileLines()
 {
-
-    
     if (!_lines.empty())
     {
         return _lines.size();
     }
-    */
     return 0;
 }
 
 void AnalyzedFile::toUpperCase()
 {
-
 }
 
 void AnalyzedFile::toLowerCase()
 {
-
 }
 
 void AnalyzedFile::showStats()
