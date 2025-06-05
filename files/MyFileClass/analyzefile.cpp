@@ -1,4 +1,5 @@
 #include "analyzefile.hpp"
+#include <sstream>
 
 int AnalyzedFile::countWords()
 {
@@ -12,7 +13,21 @@ int AnalyzedFile::countWords()
 
 int AnalyzedFile::countOccurrences(const std::string &word)
 {
-    return 0;
+    if (_lines.empty() || word.empty())
+        return 0;
+
+    int count = 0;
+    for (const auto &line : _lines)
+    {
+        std::istringstream iss(line);
+        std::string w;
+        while (iss >> w)
+        {
+            if (w == word)
+                ++count;
+        }
+    }
+    return count;
 }
 
 int AnalyzedFile::countFileLines()
