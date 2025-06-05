@@ -1,4 +1,5 @@
 #include "file.hpp"
+#include "analyzefile.hpp"
 
 // Definicja metody
 void File::saveFile()
@@ -36,11 +37,3 @@ void File::showFile()
     }
 }
 
-int File::countFileLines()
-{
-    if (!_lines.empty())
-    {
-        return _lines.size();
-    }
-    return 0;
-}
