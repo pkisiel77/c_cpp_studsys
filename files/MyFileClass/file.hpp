@@ -18,4 +18,6 @@ public:
     void readFile();
     // Deklaracja metody showFile()
     void showFile();
+
+    int countFileLines();
 };

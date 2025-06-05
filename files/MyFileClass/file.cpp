@@ -35,3 +35,12 @@ void File::showFile()
         std::cout << line << std::endl;
     }
 }
+
+int File::countFileLines()
+{
+    if (!_lines.empty())
+    {
+        return _lines.size();
+    }
+    return 0;
+}
