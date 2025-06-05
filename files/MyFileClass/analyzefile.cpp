@@ -2,6 +2,12 @@
 
 int AnalyzedFile::countWords()
 {
+    if(_lines.empty()) 
+    {
+        return 0;
+    }
+
+    
 
 }
 
@@ -12,7 +18,8 @@ int AnalyzedFile::countOccurrences(const std::string &word)
 
 int AnalyzedFile::countFileLines()
 {
-    /*
+
+    
     if (!_lines.empty())
     {
         return _lines.size();

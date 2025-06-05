@@ -8,7 +8,7 @@
 
 class File
 {
-private:
+protected:
     std::string _fileName;
     std::vector<std::string> _lines;
 
