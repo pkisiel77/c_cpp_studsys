@@ -1,8 +1,4 @@
-### 📘 **Zadania z C++ dla Początkujących**
-
-Tematy: zmienne, funkcje, klasy, tablice, `std::vector`  
-Poziom: podstawowy  
-Liczba zadań: 10
+### **Zadania z C++ dla Początkujących**
 
 ---
 
