@@ -8,7 +8,17 @@ int AnalyzedFile::countWords()
         return 0;
     }
 
-    return -1;
+    int spaces = 0;
+    for (std::string line : _lines)
+    {
+        for (char c : line)
+        {
+            if (c == ' ')
+                spaces++;
+        }
+    }
+
+    return spaces;
 }
 
 int AnalyzedFile::countOccurrences(const std::string &word)
@@ -49,4 +59,7 @@ void AnalyzedFile::toLowerCase()
 
 void AnalyzedFile::showStats()
 {
+    // liczba wierszy
+    // liczba słów
+    // liczba bajtów pliku
 }
