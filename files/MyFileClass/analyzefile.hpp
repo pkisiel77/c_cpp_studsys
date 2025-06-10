@@ -17,6 +17,8 @@ public:
     void toLowerCase();
 
     void showStats();
+
+    std::vector<std::string> AnalyzedFile::split(const std::string &str, char delimiter);
 };
 
 #endif
