@@ -19,6 +19,8 @@ public:
     void showStats();
 
     std::vector<std::string> AnalyzedFile::split(const std::string &str, char delimiter);
+
+    std::vector<std::string> AnalyzedFile::split2(const std::string &str, char delimiter);
 };
 
 #endif

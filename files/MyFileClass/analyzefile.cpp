@@ -78,3 +78,19 @@ std::vector<std::string> AnalyzedFile::split(const std::string &str, char delimi
 
     return tokens;
 }
+
+std::vector<std::string> AnalyzedFile::split2(const std::string &str, char delimiter)
+{
+    std::vector<std::string> result;
+    size_t start = 0;
+    size_t end = 0;
+
+    while ((end = str.find(delimiter, start)) != std::string::npos)
+    {
+        result.emplace_back(str.substr(start, end - start));
+        start = end + 1;
+    }
+
+    result.emplace_back(str.substr(start));
+    return result;
+}
