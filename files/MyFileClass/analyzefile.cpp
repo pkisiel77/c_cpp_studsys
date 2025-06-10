@@ -13,6 +13,7 @@ int AnalyzedFile::countWords()
     {
         for (char c : line)
         {
+            // std::isspace(char)
             if (c == ' ')
                 spaces++;
         }
