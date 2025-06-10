@@ -16,17 +16,20 @@ void File::saveFile()
 // Definicja metody
 void File::readFile()
 {
+    _lines.clear();
+    // _lines.reserve(100);
 
     std::string line;
 
     std::ifstream MyReadFile(_fileName);
 
+    if (!MyReadFile.is_open())
+        return;
+
     while (getline(MyReadFile, line))
     {
         _lines.push_back(line);
     }
-
-    MyReadFile.close();
 }
 
 void File::showFile()
@@ -36,4 +39,3 @@ void File::showFile()
         std::cout << line << std::endl;
     }
 }
-
