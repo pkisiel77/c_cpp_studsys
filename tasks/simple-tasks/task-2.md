@@ -45,6 +45,12 @@ Zdefiniuj klasę `Punkt2D`, która zawiera dwie zmienne `x` i `y`. Dodaj konstru
 **Wskazówka:**  
 Użyj modyfikatora `public`.
 
+**Description:**
+Define a class Point2D that contains two variables x and y. Add a constructor and a method display() that prints the coordinates of the point.
+
+**Hint:**
+Use the public modifier.
+
 ---
 
 #### 🔹 5. Klasa – Licznik
