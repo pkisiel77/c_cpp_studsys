@@ -28,7 +28,7 @@ int main()
     listaStudentow.push_back(s1);
     listaStudentow.push_back(s2);
 
-    for (Student s : listaStudentow)
+    for (Student& s : listaStudentow)
     {
         s.print();
     }
