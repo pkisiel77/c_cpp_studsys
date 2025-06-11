@@ -109,4 +109,4 @@ Możesz użyć pętli od końca lub `std::reverse()`.
 Zdefiniuj klasę `Student` z polami `imie` i `wiek`. W programie głównym utwórz `vector<Student>` i dodaj kilku studentów, a następnie wypisz ich dane.
 
 **Wskazówka:**  
-Pętla `for (const auto& s : studenci)`.
+Pętla `for (const Student& s : listaStudentow)`.
