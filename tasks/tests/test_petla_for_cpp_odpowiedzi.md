@@ -234,7 +234,6 @@ D) `1 2 4`
 
 ### **Pytanie 12**
 Który zapis ***<u>nie wypisze</u>*** "Hello" dokładnie 5 razy?
-__Podkreślony tekst__
 
 A)  
 ```cpp
