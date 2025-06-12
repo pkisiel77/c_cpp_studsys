@@ -17,7 +17,9 @@ D) `for (int i = 5; i >= 1; i--) std::cout << i << " ";`
 ### Pytanie 2
 Jaki będzie wynik działania tego kodu?
 
-`for (int i = 0; i < 3; i++) std::cout << i * 2 << " ";`
+```cpp
+for (int i = 0; i < 3; i++) std::cout << i * 2 << " ";
+```
 
 A) `0 2 4`  
 B) `2 4 6`  
@@ -39,7 +41,9 @@ D) `for (int i = 10; i > 0; i--) {}`
 ### Pytanie 4
 Ile razy zostanie wykonane ciało pętli?
 
-`for (int i = 5; i < 5; i++) std::cout << i;`
+```cpp
+for (int i = 5; i < 5; i++) std::cout << i;
+```
 
 A) 0  
 B) 1  
@@ -51,7 +55,9 @@ D) Nieskończoność
 ### Pytanie 5
 Jakie liczby wypisze poniższy kod?
 
-`for (int i = 10; i > 5; i -= 2) std::cout << i << " ";`
+```cpp
+for (int i = 10; i > 5; i -= 2) std::cout << i << " ";
+```
 
 A) `10 8 6`  
 B) `10 9 8 7 6`  
@@ -93,7 +99,9 @@ D) `&&`
 ### Pytanie 9
 Co zostanie wypisane?
 
-`for (int i = 3; i > 0; i--) std::cout << i << " ";`
+```cpp
+for (int i = 3; i > 0; i--) std::cout << i << " ";
+```
 
 A) `1 2 3`  
 B) `3 2 1`  
@@ -115,7 +123,9 @@ D) `for (int i = 10; i > 0; i--) {}`
 ### Pytanie 11
 Co zostanie wypisane?
 
-`for (int i = 1; i <= 3; ++i) std::cout << i * i << " ";`
+```cpp
+for (int i = 1; i <= 3; ++i) std::cout << i * i << " ";
+```
 
 A) `1 2 3`  
 B) `1 4 9`  
@@ -137,7 +147,9 @@ D) `for (int i = 1; i < 6; i++)`
 ### Pytanie 13
 Jakie będą wartości `i` w poniższej pętli?
 
-`for (int i = 2; i <= 10; i += 2)`
+```cpp
+for (int i = 2; i <= 10; i += 2)
+```
 
 A) `2 4 6 8 10`  
 B) `2 4 6 8`  
@@ -186,7 +198,9 @@ D) `for (int i = 1; i <= 9; i *= 2)`
 ### Pytanie 17
 Ile razy wykona się poniższa pętla?
 
-`for (int i = 3; i <= 9; i += 3)`
+```cpp
+for (int i = 3; i <= 9; i += 3)
+```
 
 A) 2  
 B) 3  
@@ -226,7 +240,9 @@ D) `for (int i = 9; i > 0; i--)`
 ### Pytanie 20
 Co się stanie, jeśli w pętli `for` zabraknie warunku zakończenia?
 
-`for (int i = 0;; i++) std::cout << i;`
+```cpp
+for (int i = 0;; i++) std::cout << i;
+```
 
 A) Kompilator zgłosi błąd  
 B) Program wypisze tylko raz `0`  
