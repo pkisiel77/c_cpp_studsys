@@ -69,8 +69,9 @@ for (int i = 10; i > 0; i--) {}
 ```
 
 **Prawidłowa odpowiedź:** B
-***Odpowiedź C*** -> chociaż może wydawać się nieskończona, może się kiedyś zakończyć, jeśli int przepełni się i wróci do wartości ujemnych (choć to UB – undefined behavior). Nie jest to jawnie nieskończona pętla jak for(;;).
-
+```
+Odpowiedź C) -> chociaż może wydawać się nieskończona, może się kiedyś zakończyć, jeśli int przepełni się i wróci do wartości ujemnych (choć to UB – undefined behavior). Nie jest to jawnie nieskończona pętla jak for(;;).
+```
 ---
 
 ### **Pytanie 4**
