@@ -1,6 +1,6 @@
 # Test z języka C++: Pętla `for`
 
-Zakreśl **poprawną lub poprawne** odpowiedź w każdym pytaniu.
+Zakreśl **jedną poprawną** odpowiedź w każdym pytaniu.
 
 ---
 
