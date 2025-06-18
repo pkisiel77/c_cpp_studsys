@@ -4,14 +4,23 @@
 
 namespace _my_namespace
 {
-    class Statystyka
+    class Bazowa
     {
+    // modyfikator dostępu
+    protected:
+        int _bazowa_x;
+    };
+
+    class Statystyka : Bazowa
+    {
+
     private:
         std::vector<float> _data;
 
     public:
         void setOneData(float d)
         {
+            _bazowa_x = 10;
             _data.push_back(d);
         }
 
@@ -44,7 +53,6 @@ namespace _ala_ma_kota
 {
     void my_fun()
     {
-
     }
 }
 
