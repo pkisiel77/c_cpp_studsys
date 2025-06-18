@@ -135,7 +135,7 @@ D) `1 2 4`
 ---
 
 ### Pytanie 12
-Który zapis wypisze "Hello" dokładnie 5 razy?
+Który zapis ***<ins>nie wypisze</ins>*** "Hello" dokładnie 5 razy?
 
 A) `for (int i = 0; i < 5; i++)`  
 B) `for (int i = 1; i <= 5; i++)`  
