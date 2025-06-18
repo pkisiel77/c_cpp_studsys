@@ -1,19 +1,27 @@
 #include <iostream>
 using namespace std;
 
-namespace Algebra {
-    int square(int x) {
+namespace Algebra
+{
+    int square(int x)
+    {
         // todo: implementacja
     }
 }
 
-namespace Geometry {
-    double square(double side) {
+namespace Geometry
+{
+    double square(double side)
+    {
         // todo: implementacja
     }
 }
 
-int main() {
+// using namespace Algebra;
+// using namespace Geometry;
+
+int main()
+{
     int liczba;
     double bok;
 
